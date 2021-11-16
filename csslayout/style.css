@@ -1,0 +1,352 @@
+body {
+  font-family: sans-serif;
+  color: #747474;
+  display: block;
+  /* margin: 0 150px 0 150px; */
+  padding-right: 150px;
+  padding-left: 150px;
+
+  /* display: flex;
+    flex-direction: column; */
+}
+.MM {
+  position: fixed;
+  background: white;
+  top: 0;
+}
+a {
+  color: #252525;
+  text-decoration: none;
+}
+/* .LOGO {
+    padding: auto;
+    margin: 0%;
+  } */
+.active {
+  color: #5dc6b0;
+}
+.ca-and-dp {
+  color: #ababab;
+}
+.docplanner-headr {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px; */
+  /* position: fixed; */
+  background: white;
+  /* top: 0px; */
+  /* width: 1100px; */
+}
+option {
+  color: black;
+}
+.logo-docplanner {
+  width: 260px;
+  height: 33px;
+  margin-right: 400px;
+}
+.header-menu {
+  width: 260px;
+  height: 33px;
+  word-spacing: 1rem;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px 0;
+}
+.introduction-logo {
+  max-width: 100%;
+  height: auto;
+}
+.introductiion-title {
+  color: 00b39b;
+  text-align: center;
+  font-size: 2.125rem;
+  margin: 1em 0;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  margin: 0.67em 0;
+}
+.intoduction-texte {
+  display: flex;
+  color: #747474;
+}
+.introduction-p {
+  margin: 10px;
+  padding: 20px;
+}
+.services {
+  display: flex;
+}
+.service-card-patient {
+  background-color: #00ccb1;
+}
+.service-card-doctors {
+  background-color: #3d83df;
+}
+.service-card-clincs {
+  background-color: #1b2734;
+}
+.service-card {
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  margin: 10px;
+  letter-spacing: -0.3px;
+}
+.service-card-select {
+  width: 100%;
+  background: transparent;
+  border: 1px;
+  border-radius: 0;
+  padding: 0 3.5 em 0 1.5 em;
+  height: 40 px;
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+}
+.service-card-title {
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  display: block;
+}
+.global {
+  display: flex;
+}
+.p-global {
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  color: #00b39b;
+}
+.brands__logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
+
+.brands__logos a {
+  display: inline-block;
+  padding: 5px 10px;
+}
+.bigest {
+  display: flex;
+  background: #dbf7f6;
+  margin: 20px;
+}
+.lead__logo {
+  height: 30px;
+}
+.B1 {
+  position: static;
+}
+.B1 h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  margin: 20px;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: -0.3px;
+}
+.B1 p {
+  font-weight: 300;
+}
+.B1 img {
+  position: relative;
+  top: 100px;
+  height: 400px;
+}
+.B2 {
+  display: inline;
+  padding: 20 px;
+  margin: 20px;
+  text-align: center;
+}
+.p1 {
+  background-color: white;
+  box-sizing: border-box;
+  width: 200px;
+  margin-top: 20px;
+  text-align: center;
+}
+.p2 {
+  background-color: white;
+  box-sizing: border-box;
+  width: 200px;
+  text-align: center;
+}
+.p3 {
+  background-color: white;
+  box-sizing: border-box;
+  width: 200px;
+  text-align: center;
+}
+.p4 {
+  background-color: white;
+  box-sizing: border-box;
+  width: 200px;
+  text-align: center;
+}
+.gg {
+  text-align: center;
+  height: 50x;
+  padding: 20px;
+}
+.gg h1 {
+  font-size: 2.1428571429em;
+  color: #00b39b;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  max-width: 460 px;
+  margin: 0 auto 4.1875 rem;
+  font-size: 0.875em;
+  text-align: center;
+}
+.section__inner {
+  zoom: 1;
+  max-width: 1015px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+  display: table;
+}
+.main-footer {
+  display: flex;
+  align-items: center;
+}
+.section__inner p {
+  text-align: center;
+  font: size 2.1em;
+  margin: 1em 0;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: -0.3px;
+  margin: 0.67em 0;
+  font-family: Roboto, Arial, sans-serif;
+}
+.offices__header {
+  max-width: 460px;
+  margin: 0 auto 4.1875rem;
+  font-size: 0.875em;
+  text-align: center;
+}
+.offices__header h1 {
+  font-size: 1.5em;
+}
+.offices__header p {
+  line-height: 1.7142857143;
+}
+p {
+  display: block;
+  margin: 1.6em 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.offices__slider .office {
+  width: 33.33%;
+  float: left;
+}
+.office {
+  padding: 0px;
+  padding-bottom: 20px;
+}
+.office__inner {
+  box-shadow: 0 5px 10px 0 transparent;
+  transition: box-shadow 0.2s ease 0s;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 311px;
+  z-index: 2;
+  position: relative;
+  display: block;
+  color: #747474;
+}
+a {
+  text-decoration: none;
+  color: #3d83df;
+  outline: 0;
+  transition: all 0.2s ease 0s;
+}
+figure {
+  padding-top: 50px;
+  margin: 20px;
+  display: block;
+  margin: 1em 40px;
+}
+.office__image img {
+  display: block;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+.office__desc {
+  font-size: 1.125em;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  padding: 1.1111111111em;
+}
+div {
+  display: block;
+}
+.office .btn {
+  float: right;
+}
+.btn--small {
+  font-size: 0.625rem;
+  padding: 1em 1.5em;
+}
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 1.1666666667em 1.5em;
+  background: #3d83df;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 0.75rem;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: all 0.2s ease 0s;
+}
+.join-us__header {
+  max-width: 520 px;
+  margin: 0 auto;
+  font-size: 0.875em;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.container1 {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+}
+
+.container2 {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+}
